@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Side from './components/Side';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <header>
           <h1><a href="index.html">Ressursarkiv</a></h1>
       </header>
+
+      <NavBar/>
 
       <Side/>
 
