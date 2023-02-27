@@ -1,10 +1,7 @@
 export default function innhold({title, cat, url}){
     return(
-        <article className="recipe-card">
-            <h2>{cat}</h2>
-            <h3><a href={url}>{title}</a></h3>
-
-
+        <article className="innhold">
+            <ul>{ressurser.map((item, index) => item.category === "html" ? <li>{item.title}</li> : null)}</ul>
         </article>
     )
 }

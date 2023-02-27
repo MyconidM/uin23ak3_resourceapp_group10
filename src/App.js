@@ -12,7 +12,6 @@ function App() {
 
       <NavBar/>
 
-      <Side/>
 
       <div id="textCont">
           <article id="text">
