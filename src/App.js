@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Side from './components/Side';
 import NavBar from './components/NavBar';
+import Innhold from './components/Innhold';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 
       <NavBar/>
 
+      <Innhold/>
 
       <div id="textCont">
           <article id="text">
