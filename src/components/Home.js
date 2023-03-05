@@ -1,7 +1,9 @@
 export default function Home() {
+    document.getElementById("nav1").classList.add("active")
+
     return (
-        <article id="text">
-              <h2>Ressursarkivets start side</h2>
-          </article>
+        
+        <h2 id="text">Ressursarkivets start side</h2>
+        
     )
 }
