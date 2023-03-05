@@ -1,7 +1,6 @@
 import ressurser from "../resources/ressurser";
 
 export default function React() {
-    document.getElementById("nav5").classList.add("active")
 
     return (
         <div>

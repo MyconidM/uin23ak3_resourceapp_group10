@@ -1,7 +1,6 @@
 import ressurser from "../resources/ressurser";
 
 export default function HeadlessCMS() {
-    document.getElementById("nav6").classList.add("active")
 
     return (
         <div>

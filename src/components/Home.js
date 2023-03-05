@@ -1,5 +1,4 @@
 export default function Home() {
-    document.getElementById("nav1").classList.add("active")
 
     return (
         

@@ -1,7 +1,6 @@
 import ressurser from "../resources/ressurser";
 
 export default function CSS() {
-    document.getElementById("nav3").classList.add("active")
 
     return (
         <div>

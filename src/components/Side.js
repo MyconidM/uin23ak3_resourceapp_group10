@@ -3,79 +3,67 @@ import Innhold from "./Innhold";
 import {HomeIcon} from '@heroicons/react/24/outline'
 
 export default function Side() {
-    const nav1 = () => {
-        document.getElementById("nav1");
-     };
-     const nav2 = () => {
-        document.getElementById("nav2");
-     };
-     const nav3 = () => {
-        document.getElementById("nav3");
-     };
-     const nav4 = () => {
-        document.getElementById("nav4");
-     };
-     const nav5 = () => {
-        document.getElementById("nav5");
-     };
-     const nav6 = () => {
-        document.getElementById("nav6");
-     };
+    const ActiveAdd = (nr) => {
+        document.getElementById("nav"+nr).classList.add("active");
+    };
+    const ActiveRemove = (nr) => {
+        document.getElementById("nav"+nr).classList.remove("active");
+    };
 
 
     const NAV1 = () => {
-        nav1.classList.add("active")
-
-        nav2.classList.remove("active")
-        nav3.classList.remove("active")
-        nav4.classList.remove("active")
-        nav5.classList.remove("active")
-        nav6.classList.remove("active")
+        ActiveRemove(2);
+        ActiveRemove(3);
+        ActiveRemove(4);
+        ActiveRemove(5);
+        ActiveRemove(6);
+        
+        ActiveAdd(1);
     }
     const NAV2 = () => {
-        nav2.classList.add("active")
+        ActiveAdd(2);
 
-        nav1.classList.remove("active")
-        nav3.classList.remove("active")
-        nav4.classList.remove("active")
-        nav5.classList.remove("active")
-        nav6.classList.remove("active")
+        ActiveRemove(1);
+        ActiveRemove(3);
+        ActiveRemove(4);
+        ActiveRemove(5);
+        ActiveRemove(6);
     }
     const NAV3 = () => {
-        nav3.classList.add("active")
+        ActiveAdd(3);
 
-        nav2.classList.remove("active")
-        nav1.classList.remove("active")
-        nav4.classList.remove("active")
-        nav5.classList.remove("active")
-        nav6.classList.remove("active")
+        ActiveRemove(2);
+        ActiveRemove(1);
+        ActiveRemove(4);
+        ActiveRemove(5);
+        ActiveRemove(6);
     }
     const NAV4 = () => {
-        nav4.classList.add("active")
+        ActiveAdd(4);
 
-        nav2.classList.remove("active")
-        nav3.classList.remove("active")
-        nav1.classList.remove("active")
-        nav5.classList.remove("active")
-        nav6.classList.remove("active")
+        ActiveRemove(2);
+        ActiveRemove(3);
+        ActiveRemove(1);
+        ActiveRemove(5);
+        ActiveRemove(6);
     }
     const NAV5 = () => {
-        nav5.classList.add("active")
+        ActiveAdd(5);
 
-        nav2.classList.remove("active")
-        nav3.classList.remove("active")
-        nav4.classList.remove("active")
-        nav1.classList.remove("active")
-        nav6.classList.remove("active")
+        ActiveRemove(2);
+        ActiveRemove(3);
+        ActiveRemove(4);
+        ActiveRemove(1);
+        ActiveRemove(6);
     }
     const NAV6 = () => {
-        nav6.classList.add("active")
+        ActiveAdd(6);
 
-        nav2.classList.remove("active")
-        nav3.classList.remove("active")
-        nav4.classList.remove("active")
-        nav5.classList.remove("active")
-        nav1.classList.remove("active")
+        ActiveRemove(2);
+        ActiveRemove(3);
+        ActiveRemove(4);
+        ActiveRemove(5);
+        ActiveRemove(1);
     }
 
     return (
