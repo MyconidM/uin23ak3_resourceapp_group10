@@ -2,7 +2,7 @@ import ReactDOM from "react-dom/client";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Html from './Html';
-import Innhold from './Innhold';
+import Innhold from './innhold';
 import Side from "./Side";
 import Home from "./Home";
 import CSS from "./CSS";
