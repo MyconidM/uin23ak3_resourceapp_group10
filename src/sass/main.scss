@@ -13,6 +13,7 @@ h1, h2, h3 {
 
 /*brukt kodeeksempler fra forelesning*/
 #root{
+    --border: 2px solid #e1e1e1;
     --lightblue: #25dfe6;
     --white: #FFFFFF;
     --black: #000000;
@@ -24,7 +25,6 @@ h1, h2, h3 {
 }
 
 .body {
-    background-color: var(--white);
     font-size: var(--rootsize);
     font-family: Arial;
     color: var(--darkgray);
