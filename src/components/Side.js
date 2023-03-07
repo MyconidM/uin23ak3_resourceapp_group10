@@ -1,5 +1,5 @@
 import {Link}  from "react-router-dom";
-import Innhold from "./Innhold";
+import Innhold from "./innhold";
 import {HomeIcon} from '@heroicons/react/24/outline'
 
 export default function Side() {
