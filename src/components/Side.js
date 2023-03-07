@@ -73,24 +73,30 @@ export default function Side() {
         </header>
         <nav id="nav">
             <ul id="links">
-                <li id="nav1" onClick={NAV1}>
-                    <Link to="/"><HomeIcon/></Link>
-                </li>
-                <li id="nav2" onClick={NAV2}>
-                    <Link to="/Html">Html</Link>
-                </li>
-                <li id="nav3" onClick={NAV3}>
-                    <Link to="/CSS">CSS</Link>
-                </li>
-                <li id="nav4" onClick={NAV4}>
+                <Link to="/">
+                    <span id="nav1" onClick={NAV1}>
+                    <HomeIcon className="homeicon"/>
+                    </span>
+                </Link>
+                <Link to="/Html">
+                    <span id="nav2" onClick={NAV2}>
+                        Html
+                    </span>
+                </Link>
+                <Link to="/CSS">
+                    <span id="nav3" onClick={NAV3}>
+                        CSS
+                    </span>
+                </Link>
+                <span id="nav4" onClick={NAV4}>
                     <Link to="/JavaScript">JavaScript</Link>
-                </li>
-                <li id="nav5" onClick={NAV5}>
+                </span>
+                <span id="nav5" onClick={NAV5}>
                     <Link to="/React">React</Link>
-                </li>
-                <li id="nav6" onClick={NAV6}>
+                </span>
+                <span id="nav6" onClick={NAV6}>
                     <Link to="/HeadlessCMS">Headless cms</Link>
-                </li>
+                </span>
             </ul>
         </nav>
 
