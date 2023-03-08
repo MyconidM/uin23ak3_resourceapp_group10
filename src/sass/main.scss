@@ -32,8 +32,7 @@ body {
     padding-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
-    padding-left: 15%;
-    padding-right: 15%;
+    
 }
 
 .textCont {
@@ -47,12 +46,13 @@ body {
     border-top: var(--lightblue);
     border-top: 0px;
     box-shadow: 0 -5px 0 0 var(--lightblue);
+    color: var(--darkgray);
     
 }
 
-div.conteiner {
+.conteiner {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
@@ -109,7 +109,7 @@ h1 a:link {
     text-decoration: none;
 }
 
-span:not(#links):hover  {
+nav span:not(#links):hover  {
   background-color: var(--lightblue);
   border-style: solid;
   border-color: var(--lightblue);
@@ -147,9 +147,10 @@ h1 span{
 #links span {
     width: auto;
     height: fit-content;
-    border-style: ridge;
+    border: var(--border);
     margin-right: 1rem;
     padding: 1.2rem;
+    background-color: var(--lightgray);
     border-bottom: var(--lightblue);
     
 }
@@ -174,3 +175,7 @@ a:hover {
 a:active {
     color: var(--darkgray);
   }
+
+
+
+ 
