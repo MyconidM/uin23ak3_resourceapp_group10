@@ -28,6 +28,7 @@ body {
     font-size: var(--rootsize);
     font-family: Arial;
     color: var(--darkgray);
+    background-color: var(--white);
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 0;
@@ -93,6 +94,7 @@ div.conteiner {
     border-top: 0px;
     box-shadow: 0 -5px 0 0 var(--lightblue);
     display: inline-block;
+    background-color: var(--white);
 
 }
 
@@ -113,6 +115,7 @@ a:link {
     display: flex;
     font-size: x-large;
     text-decoration: none;
+    
 }
 
 #links span {
@@ -125,14 +128,13 @@ a:link {
     
 }
 
+#links link {
+    
+}
+
 #links a:link {
     text-decoration: none;
     color: var(--lightblue);
-}
-
-.textCont {
-    background-color: var(--lightgray);
-
 }
 
 .homeicon {
@@ -145,3 +147,24 @@ a:link {
     border-color: var(--lightblue);
     color: white;
 }
+
+a:link {
+    color: var(--lightblue);}
+  
+  a:hover {
+    color: var(--darkgray);
+      }
+  a:visited {
+    color: var(--gray);
+  }
+  
+  a:active {
+    color: var(--darkgray);
+  }
+  
+   #links :hover {
+    background-color: var(--lightblue);
+    border-style: solid;
+    border-color: var(--lightblue);
+    color: var(--white);
+    }
