@@ -117,6 +117,10 @@ h1 {
   border-width: 1px;
 }
 
+h1 span {
+  color: var(--darkgray);
+}
+
 #links {
   display: flex;
   font-size: x-large;
