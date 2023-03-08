@@ -69,7 +69,7 @@ export default function Side() {
     return (
         <>
         <header>
-            <h1><span><Link to="/">Ressursarkiv</Link></span></h1>
+            <h1><Link to="/"><span>Ressursarkiv</span></Link></h1>
         </header>
         <nav id="nav">
             <ul id="links">
