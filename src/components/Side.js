@@ -89,7 +89,7 @@ export default function Side() {
                     <Link to="/React">React</Link>
                 </li>
                 <li id="nav6" onClick={NAV6}>
-                    <Link to="/HeadlessCMS">Headless cms</Link>
+                    <Link to="/HeadlessCMS">Sanity</Link>
                 </li>
             </ul>
         </nav>
