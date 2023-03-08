@@ -77,6 +77,7 @@ div.conteiner {
   display: inline-block;
   border: var(--border);
   background-color: var(--lightGray);
+  color: var(--darkgray);
 }
 
 #nav span.active {
@@ -151,6 +152,10 @@ a:link {
 
 a:hover {
   color: var(--darkgray);
+}
+
+.textCont a:visited {
+  color: var(--gray);
 }
 
 a:active {
