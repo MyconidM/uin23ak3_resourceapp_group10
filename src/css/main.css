@@ -32,6 +32,19 @@ body {
   padding-right: 15%;
 }
 
+.textCont {
+  display: flex;
+  border-style: solid;
+  border-color: var(--gray);
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 30rem;
+  padding-bottom: 10rem;
+  border-top: var(--lightblue);
+  border-top: 0px;
+  box-shadow: 0 -5px 0 0 var(--lightblue);
+}
+
 div.conteiner {
   width: 100%;
   max-width: 1200px;
@@ -50,7 +63,6 @@ div.conteiner {
 
 .header a {
   text-decoration: none;
-  color: var(--textC);
 }
 
 #nav {
@@ -72,14 +84,6 @@ div.conteiner {
   border-color: var(--lightblue);
   color: white;
   border-style: solid;
-}
-
-#textCont {
-  border-left: var(--border);
-  border-right: var(--border);
-  border-bottom: var(--border);
-  border-top: 6px solid var(--lightblue);
-  padding: 0 1rem;
 }
 
 .article h2 {
@@ -116,23 +120,41 @@ h1 {
   display: flex;
   font-size: x-large;
   width: 100%;
-  padding: 1rem;
+  padding-right: 1rem;
+  padding-left: 0%;
+  padding-bottom: 0%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 0.25rem;
 }
 
 #links span {
+  width: auto;
+  height: fit-content;
   border-style: ridge;
   margin-right: 1rem;
   padding: 1.2rem;
+  border-bottom: var(--lightblue);
 }
 
 .homeicon {
   width: 2rem;
 }
 
-.textCont {
+.navlink {
   background-color: var(--white);
+}
+
+a:link {
+  color: var(--lightblue);
+}
+
+a:hover {
+  color: var(--darkgray);
+}
+
+a:active {
+  color: var(--darkgray);
 }
 
 /*# sourceMappingURL=main.css.map */
