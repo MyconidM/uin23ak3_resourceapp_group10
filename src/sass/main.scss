@@ -74,6 +74,7 @@ div.conteiner {
     background-color: var(--lightblue);
     border-color: var(--lightblue);
     color: white;
+    border-style: solid;
 }
 
 #textCont {
@@ -97,18 +98,26 @@ h1 a:link {
     text-decoration: none;
 }
 
+span:not(#links):hover  {
+  background-color: var(--lightblue);
+  border-style: solid;
+  border-color: var(--lightblue);
+  color: var(--white);
+  }
+
 h1 {
     margin-left: auto;
     margin-right: auto;
     padding: 2rem;
     width: auto;
-    border-style: groove;
+    border-style: ridge;
     border-color: gray;
     border-width: 1px;
 }
 
 #links {
-    display: block;
+    display: flex;
+    font-size: x-large;
     width: 100%;
     padding: 1rem;
     margin-right: auto;
@@ -119,7 +128,7 @@ h1 {
 #links span {
     border-style: ridge;
     margin-right: 1rem;
-    padding: 2rem;
+    padding: 1.2rem;
     
 }
 
